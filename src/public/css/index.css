@@ -1,54 +1,60 @@
-  .header-nav {
-    display: flex;
-    justify-content: flex-end; /* 要素を右寄せ */
-    list-style: none; /* リストマーカーを削除 */
-    padding: 0; /* 不要な余白を削除 */
-    margin: 0; /* 不要な余白を削除 */
-    align-items: center;
-  }
+.header-nav {
+  display: flex;
+  justify-content: flex-end; /* 要素を右寄せ */
+  list-style: none; /* リストマーカーを削除 */
+  padding: 0; /* 不要な余白を削除 */
+  margin: 0; /* 不要な余白を削除 */
+  align-items: center;
+}
 
-  .header-nav__item {
-    margin-left: 25px; /* ボタン同士の間隔 */
-  }
-  
-  .header-nav__button {
-    border: none;
-    color: #060606;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 0;
-    background: none;
-  }
+.header-nav__item {
+  margin-left: 25px; /* ボタン同士の間隔 */
+}
 
-  .welcome_message {
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    font-size: 24px;
-  }
+.header-nav__button {
+  border: none;
+  color: #060606;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+}
 
-  .welcome_message p{
-    margin: 0;
-  }
+.welcome_message {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-size: 24px;
+}
 
-  button-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2列に配置 */
-    gap: 20px; /* ボタン間の余白 */
-    justify-content: center; /* ボタン全体を中央揃え */
-    margin-top: 50px;
-  }
-  
-  .timestamp button {
-    width: 500px;
-    height: 200px;
-    font-size: 18px;
-    border: none;
-    background-color: #fff;
-    cursor: pointer;
-  }
-  
-  .timestamp button:hover {
-    background-color: #e0dbdb;
-  }
-  
+.welcome_message p {
+  margin: 0;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2列に配置 */
+  gap: 20px; /* ボタン間の余白 */
+  justify-content: center; /* ボタン全体を中央揃え */
+  margin-top: 50px;
+}
+
+.timestamp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timestamp button {
+  width: 500px;
+  height: 200px;
+  font-size: 18px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px; /* ボタン間に余白を追加 */
+}
+
+.timestamp button:hover {
+  background-color: #e0dbdb;
+}
