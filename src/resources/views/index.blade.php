@@ -48,6 +48,7 @@
         {{ session('error') }}
     </div>
 @endif
+<div class="test">あ</div>
 <div class="button-container">
   <form class="timestamp" action="/timein" method="get">
     <button class="button1">勤務開始</button>

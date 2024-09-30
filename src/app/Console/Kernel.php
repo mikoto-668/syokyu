@@ -95,6 +95,6 @@ class Kernel extends ConsoleKernel
                             ]);
                         }
                     }
-                })->dailyAt('23:59:59');
+                })->dailyAt('23:59');
             }
 }

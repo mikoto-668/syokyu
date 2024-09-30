@@ -58,3 +58,6 @@
 .timestamp button:hover {
   background-color: #e0dbdb;
 }
+.test {
+  color: red;
+}
