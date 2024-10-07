@@ -33,10 +33,11 @@
 
 .button-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2列に配置 */
-  gap: 20px; /* ボタン間の余白 */
-  justify-content: center; /* ボタン全体を中央揃え */
+  grid-template-columns: repeat(2, 500px); /* ボタン幅に合わせて2列に固定 */
+  gap: 30px; /* ボタン間の余白を30pxに設定 */
+  justify-content: center; /* グリッド全体を中央に揃える */
   margin-top: 50px;
+  justify-items: center; /* 各ボタンを中央揃えに */
 }
 
 .timestamp {
@@ -46,18 +47,14 @@
 }
 
 .timestamp button {
-  width: 500px;
+  width: 500px; /* ボタンの幅を指定 */
   height: 200px;
   font-size: 18px;
   border: none;
   background-color: #fff;
   cursor: pointer;
-  margin-bottom: 20px; /* ボタン間に余白を追加 */
 }
 
 .timestamp button:hover {
   background-color: #e0dbdb;
-}
-.test {
-  color: red;
 }

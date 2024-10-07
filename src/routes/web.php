@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\TimeController;
 use App\Http\Controllers\BreaktimeController;
+use App\Http\Controllers\DailyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,6 +29,7 @@ use App\Http\Controllers\BreaktimeController;
 
     Route::get('/categories', [AuthController::class, 'index']);
     Route::get('/daily', [TimeController::class, 'index']);
+    Route::get('/daily', [DailyController::class, 'show'])->name('daily.show');
     //  //勤怠実績
     // Route::get('/performance','TimeController@performance');
     // Route::post('/performance','TimeController@result');
