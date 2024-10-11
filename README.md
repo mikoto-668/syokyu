@@ -41,7 +41,8 @@ php artisan migrate
 - MySQL8.0.26
 
 ## ER図
-![alt]()
+![image](https://github.com/user-attachments/assets/614df55e-c63e-4fcb-acbb-1ba9b8f92883)
+
 
 ## URL
 - 開発環境：http://localhost/
